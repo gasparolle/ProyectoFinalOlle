@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contenedor{
+  background-color: rgb(47, 110, 172);
+}
+
+.bienvenidos{
+  text-align: center;
+}
+
+.containerCards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap:20px;
+}
+
+.card{
+  width: 18rem;
+}
+
+.fotoCard{
+  width: 100%;
+  height: 200px;
+  object-fit:contain;
+}
+
+.cargando{
+  display: flex;
+  justify-content: center;
+  color: blue;
+}
+
+.cardTitle{
+  font-size: 1.5rem;
+}
+
+.cardModelo{
+  font-size: 1.2rem;
+}
+
+.cardPrecio{
+  background-color: blue;
+  width: 100px;
+  text-align: center;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.details{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.fotoDetails{
+  max-width: 300px;
+  border: solid black 1px;
+}
+
+.details-items{
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.descripDetails{
+  width: 100%;
+}
+
+.precioDetails{
+  display: inline;
+  font-size: 1.4rem;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  padding: 2px;
+}
+
+.button-count{
+  margin: 5px;
+  font-weight: bold;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-agregar{
+  margin: 5px;
+}
+
+.cantidad{
+  font-weight: bold;
+}
+
+.cart-widget{
+  margin: 5px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.producto-carrito{
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(47, 110, 172);
+}
+
+.foto-cart{
+  margin: 5px;
+  height:200px; 
+  width: 230px;
+  object-fit: cover;
+}
+
+.detail-cart{
+  padding: 10px;
+}
+
+.titulo-cart{
+  color: white;
+}
+
+.formulario{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input{
+  margin-left: 5px;
+}
+
+.button-enviar{
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.total{
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.carrito-vacio{
+  text-align: center;
+}
